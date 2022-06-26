@@ -1,10 +1,10 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wally2", true))()
 
-local w = library:CreateWindow('Tap.yu') -- change this name
+local w = library:CreateWindow('roblox') -- change this name
 
 w:Section('Misc')
 
-local t = w:Toggle('Example Toggle', {flag = "toggle1"})
+local t = w:Toggle('niega', {flag = "toggle1"})
 
 local b = w:Button("Silent AimLock", function()
 
